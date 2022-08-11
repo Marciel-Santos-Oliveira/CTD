@@ -1,0 +1,16 @@
+Inicia um repositório local: git init
+Cria arquivos: echo ''>
+Prepara arquivos para o proximo commit: git add
+Exibe informações sobre a ramificação na qual você está trabalhando: git status
+Clona um codigo de um repositório para o seu dispositivo local: git clone
+leva as mudanças de um ambiente local para o repositório no git: git commit -m''''
+Adiciona todos os arquivos do repositório ao proximo commit: git add .
+Ver o historico de commits realizados no projeto: git log
+Criar diferentes branch: git branch
+Faz a junção dos arquivos de uma branch com outra: git merge
+Permite mudar de branch: git checkout
+Permite enviar os arquivos para o GitHub: git push
+Permite atualizar a versão da aplicação que foi alterado remotamente: git pull
+Permite voltar pastas: cd ..
+Premite entrar nas pastas: cd
+
