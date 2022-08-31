@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family: 'Roboto', sans-serif;
+}
+
+.container {
+ display: flex;
+ flex-direction: column;
+ min-height: 100vh;
+ position: relative;
+}
+
+.cabecalho {
+ display: flex;
+ flex-direction: column;
+}
+
+.ofertas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 90px;
+    height: 30px;
+    background-color: #222222;
+    color: #f3f3f3;
+   }
+
+.cabecalho .barra-de-navegacao {
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    height: 62px;
+    justify-content: space-between;
+    background-color: #f0a83e;
+   }
+
+   .logo-empresa {
+    display: inline-flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+   }
+
+   .logo {
+    font-size: 34px;
+    color: #3c2313;
+   }
+
+   .logo-cat-dog {
+    color: #f3f3f3;
+    padding-left: 3px ;
+   }
+
+   .barra-de-navegacao nav ul {
+    display: flex;
+    list-style: none;
+   }
+   
+   .barra-de-navegacao nav ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: #f3f3f3; 
+    line-height: 16px;
+    font-weight: 400;
+    font-size: 18px;
+   }
+
+   .banner-principal {
+    width: 100%;
+    height: 600px;
+    background-image: url("./img/fundo.jpg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   }
+
+   .banner-principal div {
+    margin-right: 64px;
+    min-height: 80vh;
+    width: 365px;
+    min-height: auto;
+    gap: 10px;
+   }
+   
+   .banner-principal div h2 {
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    padding: 10px 20px;
+    margin-bottom: 12px;
+    font-weight: 400;
+    gap: 10px;
+    color: #3c2313;
+   }
+
+   .banner-principal div h3 {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 12px;
+    color: #3c2313;
+}
+
+.banner-principal div button {
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 100px;
+    background-color: #f0a83e;
+    color: #f3f3f3;
+    border: none;
+    cursor: pointer;
+   }
+
+.destaque {
+ width: 100%;
+ height: fit-content;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.destaque .produtos {
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ min-height: 25vh;
+ width: 100%;
+}
+
+.destaque .produtos img {
+ margin-top: 20px;
+}
+
+.destaque .produtos h1 {
+ font-size: 40px;
+ color: #3c2313;
+ font-weight: 700;
+}
+
+.destaque .produtos ul {
+ list-style: none;
+ display: flex;
+ gap: 15px;
+ margin: 10px;
+}
+
+.destaque .produtos ul li a {
+ text-decoration: none;
+ color: #3c2313;
+}
+
+.cards {
+ width: 100%;
+}
+
+.cards .produto-card {
+ display: flex;
+ justify-content: center;
+ gap: 12px;
+}
+
+.cards .produto-card div {
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ margin-bottom: 35px;
+}
+
+.cards .produto-card div h3 {
+ font-size: 16px;
+ color: #3c2313;
+}
+
+.cards .produto-card div p {
+    font-size: 15px;
+    color: #f0a83e;
+    font-weight: 400;
+   }
